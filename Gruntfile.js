@@ -28,11 +28,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     'gh-pages': {
-        options: {
-          base: 'dist'
-        },
-        src: ['**']
+      options: {
+        base: 'dist'
       },
+      src: ['**']
+    },
     // Project settings
     config: config,
 
