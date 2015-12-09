@@ -2965,6 +2965,7 @@
 		}
 
 		#banner .browser-mockup {
+			margin-top: -5em;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
