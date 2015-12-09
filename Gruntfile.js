@@ -327,9 +327,9 @@ module.exports = function (grunt) {
         }, {
           expand: true,
           dot: true,
-          cwd: '<%= config.app %>/assets/',
-          src: '**',
-          dest: '<%= config.dist %>/assets/'
+          cwd: 'bower_components/font-awesome',
+          src: 'fonts/*',
+          dest: '<%= config.dist %>'
         }]
       },
       styles: {
